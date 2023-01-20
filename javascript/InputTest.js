@@ -1,6 +1,6 @@
 console.log('InputTest');
 
-document.write('Hello world! <saver/>');
+//document.write('Hello world! <saver/>');
 
 $(function() {
   console.log("docuemnt ready");
@@ -41,7 +41,7 @@ $(document).ready(function() {
 	
 	var $data = $('#data')
     $.get('https://script.google.com/macros/s/AKfycby-LvY1jAOHD9EPK7MZbxF40NqbSnXcL93Ha1v0e64mtUECWc1VKlNQMLNYpzy9r4hJPA/exec', e, function(data) {
-		//alert("Data: " + data);
+	    //alert("Data: " + data);
     item=data.split(",");
 		$('#word').val(item[0]);    
     $('#description').val(item[1]);
