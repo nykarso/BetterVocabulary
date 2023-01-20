@@ -29,7 +29,7 @@ $(document).ready(function() {
     $.get('https://script.google.com/macros/s/AKfycby-LvY1jAOHD9EPK7MZbxF40NqbSnXcL93Ha1v0e64mtUECWc1VKlNQMLNYpzy9r4hJPA/exec', e);
 	console.log('sent data:');
 	console.log(e);
-	alert(data + "Saved!");
+	alert($word.val() + " has been saved.");
   });
   
   /* test button click handler */
